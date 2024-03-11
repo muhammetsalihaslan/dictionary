@@ -6,13 +6,7 @@ import DarkModeToggle from "./DarkModeToggle";
 const Navbar = () => {
   return (
     <div className="mt-10 flex justify-between ">
-      <Image
-        src="../images/icon-book.svg"
-        alt="Book"
-        width={30}
-        height={30}
-        alt="ni"
-      />
+      <Image src="../images/icon-book.svg" alt="Book" width={30} height={30} />
       <div className="flex gap-x-6  ">
         <FontSelect />
         <span className="border  flex items-stretch h-6/12"></span>

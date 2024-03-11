@@ -38,8 +38,8 @@ const Meaning = ({ data }) => {
       </div>
       <p className="text-[#e2e1e1] mt-[2rem]">Meaning</p>
       <ul className="mt-[2rem]">
-        {data[0].meanings[0].definitions.map((item, index) => (
-          <li key={index}>
+        {data[0].meanings[0].definitions.map((item) => (
+          <li>
             <strong>Definiton:</strong> {item.definition}
             <br />
             {item.example && (
