@@ -38,8 +38,8 @@ const Meaning = ({ data }) => {
       </div>
       <p className="text-[#e2e1e1] mt-[2rem]">Meaning</p>
       <ul className="mt-[2rem]">
-        {data[0].meanings[0].definitions.map((item) => (
-          <li>
+        {data[0].meanings[0].definitions.map((item, index) => (
+          <li key={index}>
             <strong>Definiton:</strong> {item.definition}
             <br />
             {item.example && (
@@ -55,8 +55,8 @@ const Meaning = ({ data }) => {
       <div className="flex gap-x-2 mt-5">
         <p className="text-[#e2e1e1] ">Synonyms :</p>
         <div className="flex gap-x-1">
-          {data[0].meanings[0].synonyms.map((item) => (
-            <p>{item} /</p>
+          {data[0].meanings[0].synonyms.map((item, index) => (
+            <p key={index}>{item} /</p>
           ))}
         </div>
       </div>
