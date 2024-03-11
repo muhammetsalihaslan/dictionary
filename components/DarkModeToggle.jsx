@@ -28,6 +28,7 @@ const DarkModeToggle = () => {
           width={20}
           height={20}
           className="ms-2"
+          alt="fi"
         />
       ) : (
         <Image
@@ -35,6 +36,7 @@ const DarkModeToggle = () => {
           width={20}
           height={20}
           className="ms-2"
+          alt="si"
         />
       )}
     </div>

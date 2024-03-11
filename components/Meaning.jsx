@@ -24,7 +24,12 @@ const Meaning = ({ data }) => {
           className="w-[100px] h-[100px] rounded-full flex justify-center bg-gray-100 "
           onClick={playAudio}
         >
-          <Image src="../images/icon-play.svg" width={20} height={20} alt="" />
+          <Image
+            src="../images/icon-play.svg"
+            width={20}
+            height={20}
+            alt="mi"
+          />
         </div>
       </div>
       <div className="flex mt-[3rem] gap-x-2 items-center">
